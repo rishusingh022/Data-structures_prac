@@ -1,0 +1,3 @@
+C:/Users/rishu/Desktop/abdul bari ds/linked list/cmake-build-debug/CMakeFiles/linked_list.dir
+C:/Users/rishu/Desktop/abdul bari ds/linked list/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/rishu/Desktop/abdul bari ds/linked list/cmake-build-debug/CMakeFiles/rebuild_cache.dir
