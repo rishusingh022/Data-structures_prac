@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/linked_list.dir/concatenationoFlinkedlist.c.obj"
+  "CMakeFiles/linked_list.dir/doublylinkedlist.c.obj"
   "liblinked_list.dll.a"
   "linked_list.exe"
   "linked_list.exe.manifest"

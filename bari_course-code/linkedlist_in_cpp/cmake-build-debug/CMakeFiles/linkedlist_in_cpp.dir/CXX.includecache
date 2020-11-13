@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/rishu/Desktop/abdul bari ds/linkedlist_in_cpp/test.cpp
+bits/stdc++.h
+-
+conio.h
+-
+

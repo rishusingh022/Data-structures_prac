@@ -74,7 +74,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/rishu/Desktop/abdul bari ds/linked list/concatenationoFlinkedlist.c">
+		<Unit filename="C:/Users/rishu/Desktop/abdul bari ds/linked list/doublylinkedlist.c">
 			<Option target="linked_list"/>
 		</Unit>
 		<Unit filename="C:/Users/rishu/Desktop/abdul bari ds/linked list/CMakeLists.txt">

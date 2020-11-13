@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\linkedlist_in_cpp.dir/objects.a
+C:\Users\rishu\Desktop\mingw\bin\ar.exe cr CMakeFiles\linkedlist_in_cpp.dir/objects.a @CMakeFiles\linkedlist_in_cpp.dir\objects1.rsp
+C:\Users\rishu\Desktop\mingw\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\linkedlist_in_cpp.dir/objects.a -Wl,--no-whole-archive  -o linkedlist_in_cpp.exe -Wl,--out-implib,liblinkedlist_in_cpp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\linkedlist_in_cpp.dir\linklibs.rsp

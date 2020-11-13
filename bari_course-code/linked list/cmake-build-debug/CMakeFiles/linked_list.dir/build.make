@@ -76,27 +76,27 @@ include CMakeFiles/linked_list.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/linked_list.dir/flags.make
 
-CMakeFiles/linked_list.dir/concatenationoFlinkedlist.c.obj: CMakeFiles/linked_list.dir/flags.make
-CMakeFiles/linked_list.dir/concatenationoFlinkedlist.c.obj: ../concatenationoFlinkedlist.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\rishu\Desktop\abdul bari ds\linked list\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/linked_list.dir/concatenationoFlinkedlist.c.obj"
-	C:\Users\rishu\Desktop\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\linked_list.dir\concatenationoFlinkedlist.c.obj   -c "C:\Users\rishu\Desktop\abdul bari ds\linked list\concatenationoFlinkedlist.c"
+CMakeFiles/linked_list.dir/doublylinkedlist.c.obj: CMakeFiles/linked_list.dir/flags.make
+CMakeFiles/linked_list.dir/doublylinkedlist.c.obj: ../doublylinkedlist.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\rishu\Desktop\abdul bari ds\linked list\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/linked_list.dir/doublylinkedlist.c.obj"
+	C:\Users\rishu\Desktop\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\linked_list.dir\doublylinkedlist.c.obj   -c "C:\Users\rishu\Desktop\abdul bari ds\linked list\doublylinkedlist.c"
 
-CMakeFiles/linked_list.dir/concatenationoFlinkedlist.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/linked_list.dir/concatenationoFlinkedlist.c.i"
-	C:\Users\rishu\Desktop\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\rishu\Desktop\abdul bari ds\linked list\concatenationoFlinkedlist.c" > CMakeFiles\linked_list.dir\concatenationoFlinkedlist.c.i
+CMakeFiles/linked_list.dir/doublylinkedlist.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/linked_list.dir/doublylinkedlist.c.i"
+	C:\Users\rishu\Desktop\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\rishu\Desktop\abdul bari ds\linked list\doublylinkedlist.c" > CMakeFiles\linked_list.dir\doublylinkedlist.c.i
 
-CMakeFiles/linked_list.dir/concatenationoFlinkedlist.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/linked_list.dir/concatenationoFlinkedlist.c.s"
-	C:\Users\rishu\Desktop\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\rishu\Desktop\abdul bari ds\linked list\concatenationoFlinkedlist.c" -o CMakeFiles\linked_list.dir\concatenationoFlinkedlist.c.s
+CMakeFiles/linked_list.dir/doublylinkedlist.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/linked_list.dir/doublylinkedlist.c.s"
+	C:\Users\rishu\Desktop\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\rishu\Desktop\abdul bari ds\linked list\doublylinkedlist.c" -o CMakeFiles\linked_list.dir\doublylinkedlist.c.s
 
 # Object files for target linked_list
 linked_list_OBJECTS = \
-"CMakeFiles/linked_list.dir/concatenationoFlinkedlist.c.obj"
+"CMakeFiles/linked_list.dir/doublylinkedlist.c.obj"
 
 # External object files for target linked_list
 linked_list_EXTERNAL_OBJECTS =
 
-linked_list.exe: CMakeFiles/linked_list.dir/concatenationoFlinkedlist.c.obj
+linked_list.exe: CMakeFiles/linked_list.dir/doublylinkedlist.c.obj
 linked_list.exe: CMakeFiles/linked_list.dir/build.make
 linked_list.exe: CMakeFiles/linked_list.dir/linklibs.rsp
 linked_list.exe: CMakeFiles/linked_list.dir/objects1.rsp

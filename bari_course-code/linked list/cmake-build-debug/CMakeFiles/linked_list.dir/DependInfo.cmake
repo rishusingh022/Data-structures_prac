@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/rishu/Desktop/abdul bari ds/linked list/concatenationoFlinkedlist.c" "C:/Users/rishu/Desktop/abdul bari ds/linked list/cmake-build-debug/CMakeFiles/linked_list.dir/concatenationoFlinkedlist.c.obj"
+  "C:/Users/rishu/Desktop/abdul bari ds/linked list/doublylinkedlist.c" "C:/Users/rishu/Desktop/abdul bari ds/linked list/cmake-build-debug/CMakeFiles/linked_list.dir/doublylinkedlist.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

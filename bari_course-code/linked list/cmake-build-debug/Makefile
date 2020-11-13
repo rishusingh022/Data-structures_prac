@@ -142,32 +142,32 @@ linked_list/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_list.dir\build.make CMakeFiles/linked_list.dir/build
 .PHONY : linked_list/fast
 
-concatenationoFlinkedlist.obj: concatenationoFlinkedlist.c.obj
+doublylinkedlist.obj: doublylinkedlist.c.obj
 
-.PHONY : concatenationoFlinkedlist.obj
+.PHONY : doublylinkedlist.obj
 
 # target to build an object file
-concatenationoFlinkedlist.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_list.dir\build.make CMakeFiles/linked_list.dir/concatenationoFlinkedlist.c.obj
-.PHONY : concatenationoFlinkedlist.c.obj
+doublylinkedlist.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_list.dir\build.make CMakeFiles/linked_list.dir/doublylinkedlist.c.obj
+.PHONY : doublylinkedlist.c.obj
 
-concatenationoFlinkedlist.i: concatenationoFlinkedlist.c.i
+doublylinkedlist.i: doublylinkedlist.c.i
 
-.PHONY : concatenationoFlinkedlist.i
+.PHONY : doublylinkedlist.i
 
 # target to preprocess a source file
-concatenationoFlinkedlist.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_list.dir\build.make CMakeFiles/linked_list.dir/concatenationoFlinkedlist.c.i
-.PHONY : concatenationoFlinkedlist.c.i
+doublylinkedlist.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_list.dir\build.make CMakeFiles/linked_list.dir/doublylinkedlist.c.i
+.PHONY : doublylinkedlist.c.i
 
-concatenationoFlinkedlist.s: concatenationoFlinkedlist.c.s
+doublylinkedlist.s: doublylinkedlist.c.s
 
-.PHONY : concatenationoFlinkedlist.s
+.PHONY : doublylinkedlist.s
 
 # target to generate assembly for a file
-concatenationoFlinkedlist.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_list.dir\build.make CMakeFiles/linked_list.dir/concatenationoFlinkedlist.c.s
-.PHONY : concatenationoFlinkedlist.c.s
+doublylinkedlist.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linked_list.dir\build.make CMakeFiles/linked_list.dir/doublylinkedlist.c.s
+.PHONY : doublylinkedlist.c.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... linked_list
-	@echo ... concatenationoFlinkedlist.obj
-	@echo ... concatenationoFlinkedlist.i
-	@echo ... concatenationoFlinkedlist.s
+	@echo ... doublylinkedlist.obj
+	@echo ... doublylinkedlist.i
+	@echo ... doublylinkedlist.s
 .PHONY : help
 
 

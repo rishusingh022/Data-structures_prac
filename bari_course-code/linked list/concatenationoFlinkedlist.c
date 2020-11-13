@@ -3,7 +3,7 @@
 struct node{
     int data;
     struct node *next;
-}*first=NULL,*tail=NULL;
+}*first=NULL,*second=NULL;
 void create(int A[],int n){
     int i;
     struct node *t,*last;
@@ -19,14 +19,26 @@ void create(int A[],int n){
         last=t;
     }
 }
-void recursive_reverse(struct node *p,struct node *q){
-    if(p!=NULL){
-        recursive_reverse(p->next,p);
-        p->next=q;
+void create1(int A[],int n){
+    int i;
+    struct node *t,*last;
+    second=(struct node *)malloc(sizeof(struct node));
+    second->data=A[0];
+    second->next=NULL;
+    last=second;
+    for(int i=1;i<n;i++){
+        t=(struct node *)malloc(sizeof(struct node));
+        t->data=A[i];
+        t->next=NULL;
+        last->next=t;
+        last=t;
     }
-    else{
-        first=q;
+}
+void concatenate(struct node *p,struct node *q){
+    while(p->next!=NULL){
+        p=p->next;
     }
+    p->next=q;
 }
 void display( struct node *p){
     while(p!=NULL){
@@ -37,11 +49,10 @@ void display( struct node *p){
 
 int main()
 {
-    struct node *temp;
     int a[]={3,5,5,5,8,8,9,3,4,10};
     create(a,10);
     int b[]={3,5,5,5,8,8,9,3,4,10};
-    create(b,10);
-
+    create1(b,10);
+    concatenate(first,second);
     display(first);
 }
